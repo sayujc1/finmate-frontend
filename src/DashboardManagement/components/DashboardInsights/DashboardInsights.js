@@ -3,41 +3,7 @@ import { Column } from "@ant-design/plots";
 import { useSelector } from "react-redux";
 
 const DashboardInsights = ({type, value}) => {
-  // const data = [{
-  //   date: "01-01-2023",
-  //   type: "Income",
-  //   amount: 1200,
-  // },
-  // {
-  //   date: "01-01-2023",
-  //   type: "Expense",
-  //   amount: 500,
-  // },
-  // {
-  //   date: "01-01-2023",
-  //   type: "Savings",
-  //   amount: 1400,
-  // },
-  // {
-  //   date: "02-01-2023",
-  //   type: "Income",
-  //   amount: 300,
-  // },
-  // {
-  //   date: "02-01-2023",
-  //   type: "Expense",
-  //   amount: 100,
-  // },
-  // {
-  //   date: "03-01-2023",
-  //   type: "Income",
-  //   amount: 1000,
-  // },
-  // {
-  //   date: "04-01-2023",
-  //   type: "Expense",
-  //   amount: 200,
-  // },]
+ 
   const data = useSelector(
     (state) => state.DashboardReducer.dashboardDetails
   );
